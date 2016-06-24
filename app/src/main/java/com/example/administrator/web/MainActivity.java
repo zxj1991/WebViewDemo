@@ -26,7 +26,7 @@ public class MainActivity extends AppCompatActivity {
         webSettings.setJavaScriptEnabled(true);
         webSettings.setBuiltInZoomControls(true);
         webSettings.setSupportZoom(true);
-//        descriptionView.loadDataWithBaseURL(null,data.description, "text/html", "utf-8",null);
+        descriptionView.loadDataWithBaseURL(null,data.description, "text/html", "utf-8",null);
         web.setWebChromeClient(new WebChromeClient());
         web.requestFocusFromTouch();
 //        web.loadUrl("http://music.163.com/m/topic/194001?type=android");
